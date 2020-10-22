@@ -42,7 +42,8 @@ def run():
 
 
 if __name__ == '__main__':
+    run()
 
-    schedule.every(2).minutes.do(run)
-    while True:
-        schedule.run_pending()
+    # schedule.every(2).minutes.do(run)
+    # while True:
+    #     schedule.run_pending()
